@@ -46,7 +46,7 @@ function SearchBar() {
             name='url'
             placeholder='Enter domain name'
             ref={inputRef}
-            required
+            
           />
         </div>
         <button type='submit' className='Search_btn'>Fetch & Save Details</button>
